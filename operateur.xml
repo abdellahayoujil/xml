@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="operateur.xsl" type="text/xsl"?>
+<operateur>
+
+<client code="clt001" nom="Mohammed Taha">
+    <abonnement num="ab123" type="GSM" dateab="01-01-2020">
+        <facture numfct="fct365" datefct="01-02-2020" montant="350" reglee="oui"/>
+        <facture numfct="fct630" datefct="01-03-2020" montant="456" reglee="oui"/>
+        <facture numfct="fct920" datefct="01-04-2020" montant="600" reglee="non"/>
+    </abonnement>
+    <abonnement num="ab354" type="FIXE" dateab="01-10-2019">
+        <facture numfct="fct1500" datefct="01-11-2020" montant="200" reglee="oui"/>
+        <facture numfct="fct1600" datefct="01-12-2020" montant="200" reglee="non"/>
+    </abonnement>
+</client>
+<client code="clt002" nom="Fatima Tahiri">
+    <abonnement num="ab356" type="GSM" dateab="10-01-2017">
+        <facture numfct="fct1300" datefct="10-02-2020" montant="900" reglee="oui"/>
+        <facture numfct="fct1400" datefct="10-03-2020" montant="1000" reglee="non"/>
+    </abonnement>
+</client>
+</operateur>
