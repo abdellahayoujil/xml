@@ -19,4 +19,14 @@
         <facture numfct="fct1400" datefct="10-03-2020" montant="1000" reglee="non"/>
     </abonnement>
 </client>
+<client code="clt002" nom="Abdellah Ayoujil">
+    <abonnement num="ab123" type="GSM" dateab="10-01-2019">
+        <facture numfct="fct1100" datefct="10-02-2021" montant="200" reglee="non"/>
+        <facture numfct="fct1100" datefct="10-03-2021" montant="2000" reglee="non"/>
+    </abonnement>
+        <abonnement num="ab143" type="GSM" dateab="10-01-2019">
+        <facture numfct="fct1200" datefct="10-02-2021" montant="200" reglee="oui"/>
+        <facture numfct="fct1200" datefct="10-03-2021" montant="7000" reglee="non"/>
+    </abonnement>
+</client>
 </operateur>
